@@ -23,10 +23,10 @@ const UserInformation = () => {
         </div>
       </div>
       <p className="text-base text-center font-bold mt-4 mb-4">
-        ✨ "આ શુભ પ્રસંગમાં આવો જોડાઓ!" ✨
+        &#10024; આ શુભ પ્રસંગમાં આવો જોડાઓ! &#10024;
       </p>
       <p className="text-base text-center font-bold mb-4">
-        "હું આ સમૂહ લગ્નમાં જઈ રહ્યો છું, શું તમે પણ આવશો?"
+        હું આ સમૂહ લગ્નમાં જઈ રહ્યો છું, શું તમે પણ આવશો?
       </p>
     </>
   );
