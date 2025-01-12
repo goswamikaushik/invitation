@@ -3,8 +3,8 @@ import { SetStateAction } from "react";
 
 // Create a single supabase client for interacting with your database
 const supabase = createClient(
-  "https://dcwckzrntxzqfshnemgj.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRjd2NrenJudHh6cWZzaG5lbWdqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzY2ODQzNDcsImV4cCI6MjA1MjI2MDM0N30.v8hW-fQvXNWTeJFaz_pHVnDgA-IIiYDJD0Z5X4DnzoY"
+  process.env.NEXT_PUBLIC_URL!,
+  process.env.NEXT_PUBLIC_AVON!
 );
 
 const BUCKET_NAME = "invitation_images";
